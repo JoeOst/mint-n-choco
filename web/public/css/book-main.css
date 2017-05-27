@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-size: 15px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.my-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url("fone.png") repeat;
+    background-color: #abebd9;
+    border-color: #abebd9;
+    border-radius: 0 0 10px 10px;
+    font-size: large;
+
+}
+
+.nav-font {
+    margin-left: 100px;
+    font-family: gabriola;
+    font-size: 30px;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    height: 100px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #2b542c;
+}
+
+.book-name a {
+    color: #2ba51b;
+}
+
+.book-name a:hover {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.lead a {
+    color: #60c09e;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a {
+    color: #2ba51b;
+}
+
+.margin-right {
+    margin-right: 5px;
+}
+/* кнопка вверх*/
+.go-to-top {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.go-to-top.btn-lg {
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+/* алфавіт ? треба ще доробити,переробити */
+.lead.alphabet>a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.lead.alphabet>a:hover{
+    text-shadow: 2px 1px 2px #703e28, 0 0 5em #d5ffd5;
+    background-color: #d5ffd5;
+    color: #703e28;
+    border-radius: 7px;
+
+}
+/* текст*/
+.main-text{
+    font-size: 17px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #5cb85c;
+}
+
